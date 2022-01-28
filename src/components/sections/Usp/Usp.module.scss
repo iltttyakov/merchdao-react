@@ -1,0 +1,142 @@
+.box {
+  padding-bottom: 83px;
+}
+
+.container {
+  position: relative;
+
+  display: flex;
+  padding: 0 60px;
+}
+
+.text {
+  padding-top: 82px;
+  max-width: 489px;
+}
+
+.subtitle {
+  margin: 0;
+  margin-bottom: 11px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.titleContainer {
+  position: relative;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 40px;
+
+  font-family: 'Montserrat', 'Poppins', 'DM Sans', 'sans-serif';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: -0.02em;
+  color: #333333;
+}
+
+.label {
+  position: absolute;
+  right: -2px;
+  bottom: -85px;
+
+  height: 154px;
+  width: 195px;
+}
+
+.button {
+}
+
+.imageContainer {
+  position: absolute;
+  right: 0;
+  top: -41px;
+
+  width: 100%;
+  max-width: 649px;
+  height: 560px;
+
+  &.mobile {
+    display: none;
+  }
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.picture {
+  &.parallax {
+    position: absolute;
+  }
+
+  &.mLetter {
+    right: 27px;
+    top: 63px;
+
+    width: 85%;
+  }
+
+  &.wallet {
+    right: 13%;
+    top: 45px;
+
+    width: 32%;
+  }
+
+  &.coin {
+    left: 14%;
+    bottom: 15%;
+
+    width: 43%;
+  }
+}
+
+@media (max-width: 1064px) {
+  .box {
+    align-items: center;
+  }
+
+  .imageContainer {
+    position: relative;
+    top: unset;
+    right: unset;
+
+    height: auto;
+  }
+}
+
+@media (max-width: 864px) {
+  .text {
+    padding-top: 32px;
+  }
+
+  .title {
+    font-size: 48px;
+    line-height: 54px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .imageContainer {
+    &.desktop {
+      display: none;
+    }
+
+    &.mobile {
+      display: block;
+    }
+  }
+}

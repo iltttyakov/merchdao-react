@@ -1,0 +1,41 @@
+.hint {
+  display: none;
+
+  position: absolute;
+  top: -86%;
+  left: -56%;
+
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  height: 28px;
+
+  background: #141416;
+  border-radius: 8px;
+}
+
+.hintText {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  color: #FCFCFD;
+  white-space: nowrap;
+}
+
+.hintTriangle {
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+
+  margin-left: -6px;
+}
+
+.box {
+  position: relative;
+
+  &:hover {
+    .hint {
+      display: flex;
+    }
+  }
+}

@@ -1,0 +1,161 @@
+.box {
+  padding: 32px;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 39px;
+
+  font-family: 'DM Sans', 'Poppins', 'sans-serif';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: -0.02em;
+  color: #777E91;
+  text-align: center;
+}
+
+.listTitle {
+  margin: 0;
+  margin-bottom: 12px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  background: linear-gradient(90deg, #F96D8C 0%, #FBD862 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.list {
+  margin: 0;
+  margin-bottom: 23px;
+  padding: 0;
+  width: 100%;
+
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  margin-bottom: 12px;
+  padding: 14px;
+
+  background: #FCFCFD;
+  box-shadow: 0 4px 84px rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.pictureContainer {
+  margin-right: 12px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #FFFFFF;
+  box-shadow: 0 4px 14px 2px rgba(31, 47, 70, 0.06);
+  border-radius: 12px;
+}
+
+.picture {
+
+}
+
+.mainInfo {
+
+}
+
+.name {
+  margin: 0;
+  margin-bottom: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #23262F;
+}
+
+.authorName {
+  margin: 0;
+
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+
+
+  background: linear-gradient(90deg, #F96D8C 0%, #FBD862 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.price {
+  margin-left: auto;
+}
+
+.crypto {
+  margin: 0;
+  margin-bottom: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #23262F;
+  text-align: right;
+}
+
+.dollars {
+  margin: 0;
+
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #777E91;
+  text-align: right;
+}
+
+.total {
+  margin-bottom: 14px;
+}
+
+.totalLabel {
+  margin: 0;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #777E90;
+}
+
+.totalPrice {
+  margin: 0;
+
+  font-family: 'DM Sans', 'Poppins', 'sans-serif';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  text-align: right;
+  letter-spacing: -0.02em;
+  color: #141416;
+}
+
+.email {
+  margin-bottom: 30px;
+}
+
+.button {
+  width: 100%;
+}
+
+@media (max-width: 864px) {
+  .box {
+    padding: 16px;
+  }
+}

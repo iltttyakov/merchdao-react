@@ -1,0 +1,25 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 11px;
+
+  background: #FFFFFF;
+  border: 1px solid rgba(119, 126, 145, 0.2);
+  border-radius: 20px;
+
+  cursor: pointer;
+}
+
+.text {
+  margin: 0;
+
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+
+  background: linear-gradient(90deg, #F96D8C 0%, #FBD862 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

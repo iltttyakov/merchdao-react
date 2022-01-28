@@ -1,0 +1,25 @@
+.box {
+  margin-right: 9px;
+}
+
+:global(.alice-carousel__dots) {
+  margin-top: 9px;
+}
+
+.dot {
+  width: 9px;
+  height: 8px;
+
+  background: #777E91;
+  border-radius: 40px;
+
+  transition: all .4s ease;
+
+  &.active {
+    width: 45px;
+    height: 8px;
+
+    background: linear-gradient(90deg, #F96D8C 0%, #FBD862 100%);
+    box-shadow: 0 3px 5px rgba(251, 188, 110, 0.4);
+  }
+}

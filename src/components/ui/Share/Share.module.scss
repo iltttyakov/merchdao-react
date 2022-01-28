@@ -1,0 +1,112 @@
+.box {
+  position: relative;
+}
+
+.list {
+  margin: 0;
+  padding: 14px;
+
+  background: rgba(255, 253, 253, 0.56);
+  backdrop-filter: blur(14px);
+  border-radius: 18px;
+
+  list-style: none;
+}
+
+.icon {
+  fill: #FFFFFF;
+
+  transition: all .4s ease;
+}
+
+.item {
+  position: relative;
+
+  height: 20px;
+  width: 20px;
+  margin-bottom: 16px;
+
+  border-radius: 21px;
+
+  cursor: pointer;
+  transition: all .4s ease;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    background-color: #FFFFFF;
+
+    .icon {
+      fill: #777E91;
+    }
+  }
+}
+
+.link {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.dropDown {
+  display: none;
+
+  position: absolute;
+  z-index: 2;
+  left: calc(100% + 16px);
+  top: calc(100% - 47px);
+
+  margin: 0;
+  padding: 8px;
+
+  background: #FCFCFD;
+  border: 2px solid #E6E8EC;
+  box-shadow: 0 64px 64px -48px rgba(31, 47, 70, 0.12);
+  border-radius: 24px;
+
+  list-style: none;
+
+  &.open {
+    display: block;
+  }
+}
+
+.dropDownIcon {
+  margin-right: 11px;
+
+  fill: #777E91;
+
+  transition: all .4s ease;
+}
+
+.dropDownText {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #23262F;
+}
+
+.dropDownItem {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  padding: 8px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+  transition: all .4s ease;
+
+  &:hover {
+    background-color: #F4F5F6;
+
+    .dropDownText {
+      color: #F9738B;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.box {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  height: 40px;
+
+  font-family: 'DM Sans', 'Poppins', 'sans-serif';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FCFCFD;
+
+  background: #777E91;
+  border-radius: 100px;
+
+  cursor: pointer;
+}

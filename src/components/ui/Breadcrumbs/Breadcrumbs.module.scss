@@ -1,0 +1,53 @@
+.list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  margin-left: 24px;
+  margin-right: 24px;
+
+  fill: #777E91;
+}
+
+.link {
+  font-family: 'DM Sans', 'Poppins', 'sans-serif';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #777E91;
+
+  transition: all .4s ease;
+  cursor: pointer;
+
+  &:hover {
+    color: #F9738B;
+  }
+
+  &.current {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #23262F;
+    letter-spacing: .016em;
+
+    &:hover {
+      color: #23262F;
+    }
+  }
+}
+
+@media (max-width: 864px) {
+  .hideMobile {
+    display: none;
+  }
+}
